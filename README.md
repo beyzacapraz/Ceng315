@@ -4,7 +4,7 @@ Selected computer algorithms: sorting, searching, string processing and graph al
 # THE2
 Your librarian friend is planning to digitize the catalog of the local library and needs your help. He gives a list of strings to be shown in the online catalog and asks you to sort them in a dictionary-like order. You decide to help him by writing a program that uses the Radix Sort algorithm to sort the given strings.
 
-**Problem**
+**Problem**  
 
 In this exam, I am asked to sort the given string array arr with Radix Sort in ascending or descending order depending on the boolean variable ascending and return the number of iterations done in the loops of the Counting Sort algorithm (I need to use Counting Sort as a subroutine in the Radix Sort). Size is the number of elements in the string array.
 
@@ -12,7 +12,8 @@ In this exam, I am asked to sort the given string array arr with Radix Sort in a
 You decided to start a new life on a deserted island with your friend Isabelle. Your goal is to fill the island with buildings that have predetermined plot dimensions. For this, you need to divide the land into rectangular plots with the given dimensions, leaving the least possible m^2 of unusable land. 
 Isabelle tells you the dimensions of the island. She also tells you the dimensions of the rectangular plots that you can divide the land into. Any piece of land (the whole island or the already divided plots of the land) can be divided either horizontally or vertically into two rectangular plots with integer dimensions, dividing completely through that land. This is the only way to divide the land, and divided plots cannot be joined together. Since the buildings to be placed in these plots cannot be rotated, the dimensions of the plots also cannot be rotated. You can create zero or more plots with each given dimension. A piece of land is unusable if it is not of any of the desired dimensions after all dividing operations are completed. 
 
-**Problem**
+**Problem**  
+
 In this exam, I am asked to calculate the most efficient way of dividing the land given the dimensions of the land X and Y, and the dimensions of the plots in a 2D array of booleans, then return the m^2 of unusable land by completing the divide_land() function defined.
 
 **X, Y:** dimensions X x Y of the total rectangular land of the island.  
@@ -25,7 +26,7 @@ the array cell as dimensions (for example, if possible_plot[2][3] == true, then 
 Your friend is writing a new compiled programming language called Smurf. He believes that it will be one of the best programming languages ever. He has almost finished implementing the compiler but is struggling with one last issue.
 In Smurf, programmers can write their codes into multiple files and can import other files or libraries. Before the compiler compiles a file, the files that the file to be compiled depends on must be already compiled. Therefore, the compiler should know the compilation order of files. Also, for some programs, compilation may not be possible because of cyclic dependencies (an example of cyclic dependency, two programs may be trying to import each other). In the case of cyclic dependency, the compiler should warn the user by giving the sets of files that cause the cyclic dependency. You offer to help your friend by writing a function to help this compiling process.
 
-**Problem**
+**Problem**  
 
 In this exam, I am expected to implement the run function. If the program I am trying to compile is compilable, I should assign true to the isCompilable variable, and assign the order of compilation shown by the file IDs to the compileOrder variable. If it is not compilable due to cyclic dependencies, I should assign the IDs of cyclic dependent files to the cyclicDependencies variable, a vector including vectors for each cyclic-dependent file group.
 
@@ -42,7 +43,7 @@ You come up with an idea to find new molecule structures: If we have a graph whe
 
 Additionally, your chemist friends need a program to find the longest chain in a given molecule, so you agree to also write that program for them.
 
-Problem
+**Problem** 
 
 This exam consists of two parts, graded independently.
 
