@@ -51,7 +51,7 @@ This exam consists of two parts, graded independently.
 I need to complete the function find_stucture() which returns the total bond energy of the found molecule:
 
 **bond_energies:** a bidirectional graph represented by an adjacency list, where the vertices (v) are atoms, edges are bonds,  
-and weights (w) of edges are the energies of the bonds. In other words, an entry in the adjacency list for vertex v0 is <v1, w>, which represents an edge between v0-v1 with a weight of w.
+and weights (w) of edges are the energies of the bonds. In other words, an entry in the adjacency list for vertex v0 is <v1, w>, which represents an edge between v0-v1 with a weight of w.  
 **lowest_energy_structure:** the found molecule structure represented as an adjacency list, with the same format as bond_energies. You are expected to find the structure and assign it to this argument.  
 There is at most one bond with two atoms with only one weight value, i.e. there is at most one undirected edge between any two vertices in the graph, meaning at most one weight value for each pair. Undirectionality is shown in the adjacency list by adding two mirror entries for each edge for ease of implementation.  
 Vertices are represented as integers starting from 0, and the maximum number of vertices in the graph is 1000.    
